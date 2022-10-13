@@ -1,0 +1,33 @@
+.AboutMe {
+  /* background: rgb(4,3,26);
+  background: linear-gradient(90deg, rgba(4,3,26,0.40287990196078427) 0%, rgba(168,108,8,0.9995185574229691) 31%, rgba(0,212,255,1) 100%); */
+  background-color: black;
+  padding-bottom: 5%;
+  color: white;
+} 
+
+
+.AboutMe .Container {
+  display: flex;
+}
+
+.AboutMe .Container .Text {
+  width: 47%;
+  margin-left: 3%;
+}
+
+.AboutMe .Container .Text h2 {
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.AboutMe .Container .Photo .Me {
+  height: 500px;
+  border-radius: 10%;
+}
+
+.AboutMe .Container .Photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
